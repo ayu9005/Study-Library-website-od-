@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<section lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+<section>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="books.jpg" alt="logo" style="height: 100px;"></div>
+            <li><a href="http://127.0.0.1:5501/index.html">Home</a></li>
+            <li><a href="http://127.0.0.1:5501/services.html">Services</a></li>
+            <li><a href="http://127.0.0.1:5501/location.html">Branches</a></li>
+            <li><a href="http://127.0.0.1:5501/gally.html">Gallery</a></li>
+            <li><a href="http://127.0.0.1:5501/location.html">Register your library</a></li>
+            <li><a href="http://127.0.0.1:5501/about.html">About</a></li>
+        </ul>
+
+        <div class="rightNav">
+    </div>
+    <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+
+
+    </div>
+</nav>
+<section class="background firstSection">
+<div class="box main">
+    <hr class="first half">
+    <p class="text-big"><b>APNI LIBRARY</b></p>
+        <p class="text-small"><b><i>LEARN GROW ACHIEVE </i></b></p>
+
+
+ <div class="second half" style=" text-align:center;">
+    <button class="btn">
+        <a href="http://127.0.0.1:5501/gally.html"><h2>Gallery</h2></a>
+    </button>
+<div class=" quotes">
+</div>
+
+</section>
+<div class="container">
+        <style>
+            body::before {
+    content: "APNI LIBRARY";
+    white-space: pre-line;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #75188c; /* Set the text color */
+    background-color: white; /* Set the background color */
+    padding: 10px;
+    z-index: -1;
+}
+            .container{
+                margin: 0px;
+                padding: 5px;
+                height: 16vh;
+                background-color: rgb(175, 175, 168);
+            }
+            body {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: white;
+            }
+            .horizontal-scroll-container {
+                width: 100%;
+                overflow-x: auto;
+                justify-content: space-between;
+                animation: scrollImages 10s linear infinite; /* Prevents line breaks */
+            }
+            .horizontal-scroll-image {
+                width: 18vw; /* Adjust as needed */
+                height: 16vh; /* Adjust as needed */
+                display: inline-block;
+                overflow-y: hidden;
+            }
+            @keyframes scrollImages{
+                0%{
+                    transform: translateX(0);
+
+                }
+                100%{
+                    transform:translateX(-100%);
+                }
+            }
+        </style>
+        <title>Horizontal Image Scroll</title>
+        <div class="horizontal-scroll-container">
+            <img class="horizontal-scroll-image" src="IMG_20240106_005441.jpg" alt="Horizontal Scroll Image">
+            <img class="horizontal-scroll-image" src="IMG_20240106_005304.jpg" alt="Horizontal Scroll Image">
+            <img class="horizontal-scroll-image" src="library.jpg" alt="Horizontal Scroll Image">
+            <img class="horizontal-scroll-image" src="librarycon.jpg" alt="Horizontal Scroll Image">
+            <!-- Add more images as needed -->
+        </div>
+</p>
+</div>
+</section>
+
+<div class="paras">
+<p class="sectiontag text-big"><u><b><i> FACILITIES AT LIBRARY</i></b></u> </p>
+<p class="sectionSubTag text-small"><li><b><u>UNLIMITED WIFI</u></b></li>
+<li><b><u>Under CCTV Surveillance</u></b></li>
+<li><b><u>Fully Air Conditioned</u></b></li>
+<li><b>R.O Water</b></li>
+<li><b><u>Newspaper and Magazines</u></b></li>
+<li><b>Power Backup</b></li>
+<li><b>Separate Cabins</b></li>
+<li><b>Peaceful Environment</b></li>
+<li><b><u>Provide Competitive exams books and Sample Papers</u></b></li>
+<li><b><u>Printer Facility Available</u></b></li>
+<li><b>Lunch Room Available</b></li>
+<li><b>Parking Facilities</b></li>
+</p>
+</p>
+</div>
+
+<div class="thumbnail">
+    <img src="pexels-pixabay-301920.jpg" alt="book images" class="imgfluid">
+    <img src="imagesayu.jpeg" alt="book images" class="imgfluid">
+</div>
+<section>
+</section class=" secleft" id="about">
+ <div class="paras">
+<div class="sectiontag text-big"><div class="pricing-table">
+    <div class="pricing-option">
+        <h2>6hrs</h2>
+        <p>550 Rupees</p>
+    </div>
+    <div class="pricing-option">
+        <h2>8hrs</h2>
+        <p>700 Rupees</p>
+    </div>
+    <div class="pricing-option">
+        <h2>14hrs</h2>
+        <p>900 Rupees</p>
+    </div>
+    <a href= "http://localhost/payments/checkout.php" width="640" height="1292" frameborder="0" marginheight="0" marginwidth="0">Pay Now</iframe>
+    </a >
+</div>
+
+ </div>
+<p class="sectionSubTag text-small">
+<head>
+    <style>
+        #search-box {
+            margin: 20px;
+        }
+        #city-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        #city-list li {
+            padding: 10px;
+            border: 1px solid #626461;
+            margin: 5px;
+            display: none;
+        }
+    </style>
+</head>
+    <input type="text" id="search-box" placeholder="Type a City for Availability...">
+    <ul id="city-list">
+        <li><a href="javascript:void(0);" onclick="showAddress('Lucknow1')">Lucknow1</a></li>
+        <li><a href="javascript:void(0);" onclick="showAddress('Meerut')">Meerut</a></li>
+        <li><a href="javascript:void(0);" onclick="showAddress('Shahjahanpur')">Shahjahanpur</a></li>
+        <li><a href="javascript:void(0);" onclick="showAddress('Hardoi')">Hardoi</a></li>
+        <li><a href="javascript:void(0);" onclick="showAddress('Kanpur')">Kanpur</a></li>
+        <li><a href="javascript:void(0);" onclick="showAddress('Agra')">Agra</a></li>
+        <li><a href="javascript:void(0);" onclick="showAddress('Prayagraj')">Prayagraj</a></li>
+        <li><a href="javascript:void(0);" onclick="showAddress('Ghaziabad')">Ghaziabad</a></li>
+        <li><a href="javascript:void(0);" onclick="showAddress('Noida')">Noida</a></li> 
+        <li><a href="javascript:void(0);" onclick="showAddress('Sitapur')">Sitapur</a></li>
+        <li><a href="javascript:void(0);" onclick="showAddress('Lakhimpur')">Lakhimpur</a></li>
+        <li><a href="javascript:void(0);" onclick="showAddress('Bareilly')">Bareilly</a></li>
+        <li><a href="javascript:void(0);" onclick="showAddress('Lucknow2')">Lucknow2</a></li>
+</ul>
+    <div id="addressDisplay" style="display: none;">
+        <h2> Shri Balaji Library Center</h2>
+        <p>City: <span id="cityName"></span></p>
+        <p>Address: <span id="coachingAddress"></span></p>
+    </div>
+    <script>
+        function showAddress(city) {
+            var coachingInfo = {
+               'Lucknow1': '123 gomti nagar',
+                'Meerut': 'dewfkmgkbjmigkb ',
+                'Shahjahanpur': '78 krishna mandir road',
+                'Hardoi': '62A Nagheta road Near st.Xavier Montessori School hardoi, 241001 ',
+                'Kanpur': '17 bikaner bypass wali gali',
+                'Agra': '38 basantkung road',
+                'Prayagraj': 'Circular road ,near hotel hfcl',
+                'Aligarh': '87 near shri babaji waali gali',
+                'Ghaziabad': '156 crossing republic',
+                'Noida': '135 near rkgit college ',
+                'Sitapur': '13 prem nagar',
+                'Lakhimpur': '76 nisadganj road',
+                'Bareilly': '61 Asha nagar near talkij road',
+                'Lucknow2': '123 alambagh near, metro road',
+            };
+
+            var cityName = document.getElementById("cityName");
+            var libraryAddress = document.getElementById("coachingAddress");
+
+            cityName.textContent = city;
+            coachingAddress.textContent = coachingInfo[city];
+
+            var addressDisplay = document.getElementById("addressDisplay");
+            addressDisplay.style.display = "block";
+        }
+    </script>
+    </ul>
+
+<script>
+        const searchBox = document.getElementById('search-box');
+        const cityList = document.getElementById('city-list').getElementsByTagName('li');
+
+        searchBox.addEventListener('input', function () {
+            const query = searchBox.value.toLowerCase();
+
+            for (let i = 0; i < cityList.length; i++) {
+                const city = cityList[i].textContent.toLowerCase();
+
+                if (city.includes(query)) {
+                    cityList[i].style.display = 'block';
+                } else {
+                    cityList[i].style.display = 'none';
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+</p>
+</div>
+    <section class="current" id="current">
+        <div class="container">
+            <style>
+                body::before {
+        content: "LEARN GROW ACHIEVE";
+        white-space: pre-line;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        color: #8c6118; /* Set the text color */
+        background-color: white; /* Set the background color */
+        padding: 10px;
+        z-index: -1;
+    }
+                .container{
+                    margin: 0px;
+                    padding: 5px;
+                    height: 16vh;
+                    background-color: whitesmoke;
+                }
+                body {
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    background-color: white;
+                }
+                .horizontal-scroll-container {
+                    width: 100%;
+                    overflow-x: auto;
+                    justify-content: space-between;
+                    animation: scrollImages 10s linear infinite; /* Prevents line breaks */
+                }
+                .horizontal-scroll-image {
+                    width: 18vw; /* Adjust as needed */
+                    height: 16vh; /* Adjust as needed */
+                    display: inline-block;
+                    overflow-y: hidden;
+                }
+                @keyframes scrollImages{
+                    0%{
+                        transform: translateX(0);
+                    }
+                    100%{
+                        transform:translateX(-100%);
+                    }
+                }
+            </style>
+            <title>Horizontal Image Scroll</title>
+            <div class="horizontal-scroll-container">
+                <img class="horizontal-scroll-image" src="image.jpg" alt="Horizontal Scroll Image">
+                <img class="horizontal-scroll-image" src="stockimg.jpg" alt="Horizontal Scroll Image">
+                <img class="horizontal-scroll-image" src="subscripton.img.jpg" alt="Horizontal Scroll Image">
+                <img class="horizontal-scroll-image" src="IMG_20231130_005341.jpg" alt="Horizontal Scroll Image">
+                <!-- Add more images as needed -->
+            </div>
+    <div>
+      <h2 class="mt-0"><i>Best Current Affairs & Magazines</i></h2>
+<b><li>Comprehensive Learning</li></b><b><li>Engagement and Interaction</li></b><b><li>Regularly Updates</li></b> <b><li>Current Affairs Updates</li></b></p>
+      <a href="https://www.visionias.in/resources/value_added_material.php" class="stretched-link"><li><b><u>Current Affairs link</u></b></li></a>
+      <a href="https://www.visionias.in/resources/current_affairs.php?c=magazine" class="stretched-link"><li><b><u>Magazines link</u></b></li></a>
+    </div>
+</div>
+</section>
+<div class="thumbnail">
+<img src="images (3).jpeg" alt="book image" class="imgfluid">
+<img src="images.jpeg" alt="book image" class="imgfluid">
+</div>
+
+<section class=" feedback" id="feedback">
+    <h2 class="text-center">Feedback form</h2>
+    <div class="form">
+ <form action="https://formspree.io/f/xrgvbved"
+  method="POST">
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <input type="text" name="Phone num" id="Phone num" placeholder="Enter your phone num">
+        <textarea class="form-input" name="text" id="text" cols="27" rows="8" 
+placeholder="Give your Feedback....." style="width: 90% ;"></textarea>
+
+        <button class="btn btn-dark">Submit</button>
+    </div>
+</form>
+</section>
+
+<div class="thumbnail">
+<img src="librarycon.jpg" alt="book image" class="imgfluid">
+<img src="image.jpg" alt="book image" class="imgfluid">
+
+</div>
+</section>
+<section class=" winget" id="winget">
+    <h2 class="text-center">Library data</h2>
+
+<div class="widget-container">
+  <img src="library-icon.webp" alt="library icon" width="30px" height="30px">
+  <div class="counter" id="libraryCounter">65</div>
+  <h2> Libraries opened </h2>
+  <div class="icon">📚</div>
+  <div class="counter" id="bookCounter">500+</div>
+  <h2> Books To Read </h2>
+  <div class="icon">👥</div>
+  <div class="counter" id="peopleCounter">8K+</div>
+  <h2> Members</h2>
+  <!--
+  <button onclick="incrementLibrary()">Increment Libraries</button>
+  <button onclick="incrementBooks()">Increment Books</button>
+  <button onclick="incrementPeople()">Join People</button>
+</div>
+-->
+<style>
+.widget-container {
+    background-color: #e1f1fd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+
+  .counter {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+</style>
+    </section>
+
+<section class=" contact" id="contact">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="form">
+ <form action="https://formspree.io/f/xrgvbved"
+  method="POST">
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <input type="text" name="phone" id="phone" placeholder="Enter your phone">
+        <input type="text" name="email" id="email" placeholder="Enter your email">
+        <textarea class="form-input" name="text" id="text" cols="30" rows="10" 
+placeholder="Elloborate your concern" style="width: 85% ;"></textarea>
+
+        <button class="btn btn-dark">Submit</button>
+    </div>
+</form>
+</section>
+
+<body>
+    <header>
+        <h1><u>Information</u></h1>
+    </header>
+
+    <nav>
+        <br>
+            <br>
+            <li><a href="http://127.0.0.1:5501/terms.html">1.Terms and Conditions</a></li></br>
+            <li><a href="http://127.0.0.1:5501/privacy.html">2.Privacy Policy</a></li>
+            <li><a href="http://127.0.0.1:5501/photos.html">2.Refund and Cancellation</a></li>
+            </br>
+        </ul>
+    </nav>
+    <header>
+        <h2><u>Contact us</u></h2>
+    </header>
+
+    <nav>
+        <div>
+        <ul>
+            <br>
+            <br><li>Contact number: 8787242611,9984700272 </li></ul>
+            <br><li>Email: shribalajilibrary@gmail.com</li></br>
+            </ol>
+        </ul>
+        </div>
+    </nav>
+<style>
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, footer {
+    padding: 18px;
+    margin: 0px;
+    border: 1px solid #161212;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #c1f7d5;
+}
+
+h1 {
+    color: #d92929;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #d85e00;
+}
+
+footer {
+    margin-top: 5px;
+    text-align: center;
+    color: #7d1c1c;
+}
+</style>
+<footer>
+    <p>&copy; 2023 Shri Balaji Library. All rights reserved.</p>
+    </footer>
+<script src="resp.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</body>
+</html>

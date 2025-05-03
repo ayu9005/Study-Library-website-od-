@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            width: 300px;
+            margin: 15px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px 8px 0 0;
+        }
+
+        #map {
+            height: 40px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div id="gallery">
+    <!-- Add your library photos here -->
+    <div class="gallery-item">
+        <img src="IMG_20240106_005441.jpg" alt="Library Photo 1">
+    </div>
+    <div class="gallery-item">
+        <img src="board.jpg" alt="Library Photo 2">
+    </div>
+    <div class="gallery-item">
+        <img src="MANV.jpg" alt="Library Photo 2">
+    </div>
+    <div class="gallery-item">
+        <img src="ANMOL.jpg" alt="Library Photo 2">
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3542.3969272209742!2d80.13667957263627!3d27.39454367636319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399ef943bf244ad7%3A0x581417093c202f89!2sShri%20Balaji%20Library%20%7C%20Library%20in%20Hardoi%20%7C%20Self%20Study%20Centre!5e0!3m2!1sen!2sin!4v1705728375607!5m2!1sen!2sin" width="320" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <div class="gallery-item">
+        <img src="IMG_20231130_005521.jpg" alt="Library Photo 2">
+    </div>
+    <!-- Add more photos as needed -->
+</div>
+
+</body>
+</html>
